@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <show-iframe src="http://localhost:8081/" />
+    <show-iframe src="https://www.komputronikbiznes.pl/" />
   </div>
 </template>
 
