@@ -1,8 +1,15 @@
 <template>
   <div class="iframe">
-    <iframe :src="src" class="intranet" frameborder="0" id="test"></iframe>
+    <iframe
+      :src="src"
+      class="intranet"
+      frameborder="0"
+      id="test"
+      referrerpolicy="no-referrer"
+      sandbox="allow-scripts allow-same-origin allow-top-navigation allow-popups-to-escape-sandbox"
+    ></iframe>
   </div>
-  <button @click="delBlank" class="button">ZAŁADUJ TREŚĆ Z I FRAME</button>
+  <button @click="getIframeContent('test')" class="button">ZAŁADUJ TREŚĆ Z I FRAME</button>
 </template>
 
 <script>
