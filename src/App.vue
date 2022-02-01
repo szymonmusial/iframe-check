@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <show-iframe src="https://www.musialdev.pl/" />
+    <show-iframe src="http://localhost:8081/" />
   </div>
 </template>
 
